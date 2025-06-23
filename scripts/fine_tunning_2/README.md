@@ -1,0 +1,1 @@
+O treino com learning rate = 2e-2 deu certo, mas, no notebook de inferência, fica dando RuntimeError por conta de algum problema relacionado ao CUDA. Tentamos de tudo pra resolver esse problema, no entanto, não obtivemos êxito nessa tarefa.
