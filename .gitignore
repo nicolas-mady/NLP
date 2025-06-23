@@ -1,1 +1,4 @@
 custom_metrics/teste
+custom_metrics/.deepeval
+custom_metrics/__pycache__
+custom_metrics/database*
