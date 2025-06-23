@@ -15,6 +15,6 @@ lora_config = LoraConfig(
 
 Além disso, a diferença entre o primeiro e o segundo fine tunning foi o learning rate. Este fine tunning teve `2e-4` de learning rate.
 
-Para utilizar os notebooks `GerandoSQL_ModeloTunado` e `AvaliaçãoMMLU_modeloTunado`, é preciso baixar o adaptador treinado. Ele se encontra no seguinte drive (utilize uma conta do domínio do IComp):
+Para utilizar os notebooks `GerandoSQL_ModeloTunado`. `GerandoSQL_ModeloTunado_fewshot` e `AvaliaçãoMMLU_modeloTunado`, é preciso baixar o adaptador treinado. Ele se encontra no seguinte drive (utilize uma conta do domínio do IComp):
 
 https://drive.google.com/drive/folders/1CADgJH4JmLiwoa6Tb053JXF71F1S7lkG?usp=sharing
