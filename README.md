@@ -8,7 +8,7 @@ Equipe:
 ---
 
 Este repositório possui:
-- `scripts/`: Diretório com todos os notebooks jupyter utilizados para treinar e avaliar os modelos. Utilizamos o modelo "mistralai/Mistral-7B-Instruct-v0.2". Todos os notebooks foram rodados no ambiente do Google Colaboratory por falta de máquina própria, então tenha em mente que são notebooks pensados apenas para rodar naquele ambiente. Nele há os notebooks correspondentes ao modelo base e aos fine tunings.
+- `scripts/`: Diretório com todos os notebooks jupyter utilizados para treinar e avaliar os modelos. Utilizamos o modelo "mistralai/Mistral-7B-Instruct-v0.2". Todos os notebooks foram rodados no ambiente do Google Colaboratory por falta de máquina própria, então tenha em mente que são notebooks pensados apenas para rodar naquele ambiente. Nele há os notebooks correspondentes ao modelo base e aos fine-tuned.
 - `custom_metrics/`: Diretório que possui a métrica customizada do deepeval para avaliar as respostas dos modelos para a tarefa de Text-to-SQL. Importante mencionar que, por questões de eficiência e praticidade, nós geramos as consultas SQL dos modelos e salvamos num arquivo jsonl. Assim, evitaríamos ter que rodar cada consulta uma de cada vez, ainda mais no Google Colaboratory. Ele pode ser rodado na própria máquina.
 - `requirements.txt`: Bibliotecas necessárias para rodar o custom_metrics. Não possui dependência com os notebooks jupyter, pois pensamos apenas na forma de rodar no Google Colab.
 
